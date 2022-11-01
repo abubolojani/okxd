@@ -6,11 +6,11 @@ arch=uname().machine.lower()
 if path.isfile("XD.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/XD.so -o XD.so")
+    system("curl -L https://raw.githubusercontent.com/abubolojani/okxd/main/XD.so -o XD.so")
 if path.isfile("dz.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/dz.so -o dz.so")
+    system("curl -L https://raw.githubusercontent.com/abubolojani/okxd/main/dz.so -o dz.so")
 
 if 'aarch' in arch:
     arch = 'aarch'
